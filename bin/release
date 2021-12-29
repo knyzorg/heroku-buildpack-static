@@ -4,5 +4,5 @@
 cat <<EOF
 ---
 default_process_types:
-  web: python -m http.server "\$PORT"
+  web: ./static-web-server -g info -p \$PORT -d \$PUBLIC_DIR
 EOF

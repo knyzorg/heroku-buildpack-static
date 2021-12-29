@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # this pack is valid for apps with a hello.txt in the root
-if [ -f $1/index.html ]; then
+if [ -f $1/index.html ] || [ -f $1/.static ] || [ -f $1/public ] || [ -f $1/wwwroot ] || [ -f $1/html ]; then
   echo "Static"
   exit 0
 else

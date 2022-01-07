@@ -1,5 +1,5 @@
 #!/bin/sh
 
-wget https://github.com/joseluisq/static-web-server/releases/download/v2.3.0/static-web-server-v2.3.0-x86_64-unknown-linux-gnu.tar.gz
-tar -xvf static-web-server-v2.3.0-x86_64-unknown-linux-gnu.tar.gz
-mv static-web-server-v2.3.0-x86_64-unknown-linux-gnu/static-web-server .
+wget https://github.com/joseluisq/static-web-server/releases/download/v2.4.0/static-web-server-v2.4.0-x86_64-unknown-linux-gnu.tar.gz
+tar -xvf static-web-server-v2.4.0-x86_64-unknown-linux-gnu.tar.gz
+mv static-web-server-v2.4.0-x86_64-unknown-linux-gnu/static-web-server .
